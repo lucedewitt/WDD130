@@ -39,7 +39,10 @@ Fonts are separated by a | */
   --heading-font: "Lugrasimo", cursive;
   --paragraph-font:  "Newsreader", serif;
 
-  --rheading-font:
+  --rheading-font: "Grechen Fuemen", cursive;
+  --jheading-font: "Jim Nightshade", cursive;
+  --theading-font: "Nothing You Could Do", cursive;
+  --dheading-font: "Bonheur Royale", cursive;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #523328;  /* headlines on a white background */ 
