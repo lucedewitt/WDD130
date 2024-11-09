@@ -117,6 +117,10 @@ p {
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: white;
+}
+.secondary2 {
+  color: var(--secondary-color);
 }
 .accent1 {
   background-color: var(--accent1-color);
@@ -130,9 +134,13 @@ p {
 
 .rprimary {
   background-color: var(--rprimary-color);
+  color: white;
 }
 .rsecondary {
   background-color: var(--rsecondary-color);
+}
+.rsecondary2 {
+  color: var(--rsecondary-color);
 }
 .raccent1 {
   background-color: var(--raccent1-color);
@@ -146,9 +154,13 @@ p {
 
 .jprimary {
   background-color: var(--jprimary-color);
+  color: white;
 }
 .jsecondary {
   background-color: var(--jsecondary-color);
+}
+.jsecondary2 {
+  color: var(--jsecondary-color);
 }
 .jaccent1 {
   background-color: var(--jaccent1-color);
@@ -165,6 +177,7 @@ p {
 }
 .tsecondary {
   background-color: var(--tsecondary-color);
+  color: white;
 }
 .taccent1 {
   background-color: var(--taccent1-color);
@@ -172,15 +185,22 @@ p {
 .taccent2 {
   background-color: var(--taccent2-color);
 }
+.taccent2a {
+  color: var(--taccent2-color);
+}
 .taccent3 {
   background-color: var(--taccent3-color);
 }
 
 .dprimary {
   background-color: var(--dprimary-color);
+  color: white;
 }
 .dsecondary {
   background-color: var(--dsecondary-color);
+}
+.dsecondary2 {
+  color: var(--dsecondary-color);
 }
 .daccent1 {
   background-color: var(--daccent1-color);
@@ -227,12 +247,12 @@ nav a:hover {
   display: grid;
   justify-content: center;
 
-  grid-template-columns: repeat(6, 15%);
+  grid-template-columns: repeat(7, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
+  grid-template-areas: ". . home home . . ."
+    ". . . top . . ."
+    ". left left right right right ."
+    "page2 . page3 . page4 . page5";
 }
 .sitemap > div {
 
@@ -254,6 +274,16 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+.sm-page4 {
+  grid-area: page4;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page5 {
+  grid-area: page5;
+  background-color: #ccc;
+  line-height: 3em;
+}
 
 .top {
   grid-area: top;
@@ -271,3 +301,8 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  }
